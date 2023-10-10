@@ -24,9 +24,10 @@ sumtwoint(1, None)    | None
 sumtwoint(None, 22)   | None
 sumtwoint(None, None) | None
 """
-#endregion debai
-
-#region bailam
 def sumtwoint(i1, i2):
-  return 'todo'
-#endregion bailam
+  if i1 is None:
+    return 
+  if i2 is None:
+    return None
+  return i1 + i2
+print(sumtwoint(1, 22))
